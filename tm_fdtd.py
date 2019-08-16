@@ -1,4 +1,7 @@
 import numpy as np
+#########################
+# p10-15 2次元TM_FDTD法 #
+#########################
 
 def ezFLD(Ez, Cez, Cezlx, Cezly, Hx, Hy):
     NX, NY = Ez.shape[:2]

@@ -1,5 +1,9 @@
 import numpy as np
 
+#########################
+# p16-21 2次元TE_FDTD法 #
+#########################
+
 def exFLD(Ex, Cex, Cexly, Hz):
     NX, NY = Ex.shape[:2]
     for j in range(1,NY-1):

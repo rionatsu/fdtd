@@ -1,8 +1,9 @@
 import numpy as np
+from setup  import setup
 
-def setup():
-    return 0
-
+#########################
+# p9 main関数           #
+#########################
 
 def output():
     return 0
